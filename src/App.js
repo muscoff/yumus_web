@@ -1,6 +1,11 @@
+import MyProvider from "./context/MyProvider"
+import PageRoute from "./PageRoute"
+
 function App() {
   return (
-    <div>Welcome to Yumus App!</div>
+    <MyProvider>
+      <PageRoute />
+    </MyProvider>
   );
 }
 
