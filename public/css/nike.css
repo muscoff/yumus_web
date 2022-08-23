@@ -1,0 +1,22 @@
+.grey-color{
+    color: rgb(153, 153, 153);
+}
+
+.grey-link{
+    color: rgb(153, 153, 153);
+    font-family: "Helvetica Neue",Helvetica;
+}
+
+.grey-link:hover{
+    color: rgb(255, 255, 255);
+}
+
+.footer-guide{
+    margin-right: '15px';
+}
+
+@media(min-width:420px){
+    .footer-guide{
+        margin-right: none;
+    }
+}
