@@ -15,8 +15,67 @@
     margin-right: 15px;
 }
 
-@media(min-width:420px){
+.nike-black-btn{
+    background-color: #000;
+    color: #fff;
+    font-family: "Helvetica Neue",Helvetica;
+    border-radius: calc(50px * 1);
+    padding: 10px 18px;
+}
+
+.nike-black-btn:hover{
+    background-color: rgb(101, 101, 101);
+}
+
+.media-show-join{
+    display: none;
+}
+
+.media-hide-join{
+    display: block;
+}
+
+@media(max-width:420px){
     .footer-guide{
         margin-right: none;
+    }
+
+    .media-show-join{
+        background-color:rgb(243, 225, 180);
+        display: block;
+    }
+    
+    .media-hide-join{
+        display: none;
+    }
+}
+
+@media(max-width:620px) and (min-width:421px){
+    .footer-guide{
+        margin-right: none;
+    }
+
+    .media-show-join{
+        background-color:rgb(243, 225, 180);
+        display: block;
+    }
+    
+    .media-hide-join{
+        display: none;
+    }
+}
+
+@media(max-width:820px) and (min-width:621px){
+    .footer-guide{
+        margin-right: none;
+    }
+
+    .media-show-join{
+        background-color:rgb(243, 225, 180);
+        display: block;
+    }
+    
+    .media-hide-join{
+        display: none;
     }
 }
