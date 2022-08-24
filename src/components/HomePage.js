@@ -5,6 +5,7 @@ import TwoImages from './landingPage/TwoImages'
 
 import images from '../data/images'
 import Anniversary from './landingPage/Anniversary'
+import Banner from './landingPage/Banner'
 
 const {discover} = images
 const anniversary = {
@@ -23,6 +24,8 @@ export default function HomePage() {
       {/* <div>Welcome to Yumus App!</div> */}
 
       <div className="width-95 margin-auto">
+        <Banner title="Don't Miss" img={images.banner} />
+        <div className="padding-all-20" />
         <Anniversary
          subtitle={anniversary.subtitle} 
          title={anniversary.title} 
