@@ -1,6 +1,6 @@
 import React from 'react'
 import img from '../../images/img7.webp'
-import {Link} from 'react-router-dom'
+import LinkBtn from '../LinkBtn'
 
 export default function Join() {
   return (
@@ -15,7 +15,7 @@ export default function Join() {
                 <br />
                 <div className="font-helvetica">Find out what's happening in the world of Nike Membership</div>
                 <br /><br />
-                <Link to="/" className="nike-black-btn">Learn More</Link>
+                <LinkBtn url="/" text="Learn More" />
             </div>
         </div>
 
@@ -26,7 +26,7 @@ export default function Join() {
                 <br />
                 <div className="font-helvetica">Find out what's happening in the world of Nike Membership</div>
                 <br /><br />
-                <Link to="/" className="nike-black-btn">Learn More</Link>
+                <LinkBtn url="/" text="Learn More" />
             </div>
         </div>
     </>
