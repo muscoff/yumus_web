@@ -20,7 +20,7 @@ const anniversary = {
 export default function HomePage() {
   return (
     <>
-      <div>Welcome to Yumus App!</div>
+      {/* <div>Welcome to Yumus App!</div> */}
 
       <div className="width-95 margin-auto">
         <Anniversary
