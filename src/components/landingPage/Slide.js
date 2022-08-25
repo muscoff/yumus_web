@@ -12,13 +12,6 @@ export default function Slide({title, list, className}) {
 
     const slideImages = !list ? <div /> : list.map((item, index)=>(
         <React.Fragment key={index}>
-            {/* <div className="padding-all-10">
-                <Link to="/product">
-                    <div style={{ width: '33%' }} className="red-bg padding-all-10">
-                        <img src={item.img} alt="" className="max-img" />
-                    </div>
-                </Link>
-            </div> */}
             <div className="padding-all-10 item">
                 <Link to="/product">
                     <img src={item.img} alt="" className="max-img" />
@@ -33,7 +26,6 @@ export default function Slide({title, list, className}) {
                         </div>
                     </div>
                 </Link>
-                {/* <div className="red-bg height-20"></div> */}
             </div>
         </React.Fragment>
     ))
