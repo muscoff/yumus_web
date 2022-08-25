@@ -1,3 +1,7 @@
+img.max-img{
+    max-width: 100%;
+}
+
 .grey-color{
     color: rgb(153, 153, 153);
 }
@@ -34,6 +38,16 @@
 
 .nike-black-btn.white:hover{
     background-color: rgb(223, 223, 223);
+}
+
+.product-name{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: pre;
+}
+
+.product-category{
+    color:rgb(137, 137, 137);
 }
 
 .media-show-join{
